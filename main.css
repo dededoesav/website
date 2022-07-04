@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/palace-script-mt');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import 'animate.css';
+
+html {background-color: rgb(255, 255, 255);
+background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+}
+
+body { 
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#supercontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0px solid blue;
+}
+.container { 
+    min-height: 200px; min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    justify-content:
+    align-items: center;
+}
+
+
+.container4 {
+    min-height: 200px;
+    min-width: fit-content;
+    display: flex;
+    border: 0px ridge white;
+    flex-direction: column ;
+    justify-self: center;
+align-items: center;
+}
+
+.box4{
+border: 0px solid red;
+padding: 25px;
+min-width: fit-content;
+justify-content: center;
+
+
+}
+.box1{ 
+
+    border: 0px;
+}
+
+.box2{ 
+    min-height: 0px;
+    min-width: 100px;
+    border: none;
+}
+
+.box41{
+padding: 50px;
+
+}
+
+.box45{
+    display: flex;
+ flex-direction: row;
+}
+
+.box46{
+flex-direction: row;
+    max-width: 100%;
+    font-family:'Palace Script MT', sans-serif;
+    font-size: 70px
+}
+.navigation { 
+    word-spacing: 60px;
+
+
+}
+p1 {  font-family: 'Palace Script MT', sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: lighter;
+    line-height: 26pt;
+}
+
+h1{ 
+font-family: 'Palace Script MT', sans-serif;
+font-size: 175pt;
+font-weight: 10;
+color: white;
+line-height: 0pt;
+}
+a:link { color: white;
+text-decoration: none;}
+a:visited{color: white;
+text-decoration: none;}
+
+
+div {
+    height: fit-content;
+    width: fit-content;
+}
+
+.plaster {
+    display: flex;
+align-items: flex-end
+}
+
+.dede_photo{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+    
+}
+.plaster {
+   
+    justify-content: center;
+
+}
+img{
+    max-width: 100%;
+    flex-wrap:wrap
+
+}
+
+video{
+    max-width: 50%
+
+}
